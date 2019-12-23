@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-"A convenience cocoa pod that extends view controller class that displays a tooltip."
+"A convenience cocoa pod that extends view controller class for presenting customizable tooltip messages."
                        DESC
 
   s.homepage         = 'https://github.com/mir-taqi/MIRToolTip'
