@@ -7,9 +7,10 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` 
+A convenience library that extends UIViewController class useful for presenting customizable tooltip messages.
 
-A convenience library that extends UIViewController  class useful for displaying customizable tooltip messages.
+
+To run the example project, clone the repo, and run `pod install` 
 
 ## Requirements
 
