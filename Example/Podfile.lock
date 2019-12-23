@@ -1,0 +1,16 @@
+PODS:
+  - MIRToolTip (0.1.0)
+
+DEPENDENCIES:
+  - MIRToolTip (from `../`)
+
+EXTERNAL SOURCES:
+  MIRToolTip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MIRToolTip: dc61e8f853aae2bdf1adf29c11eb5c69be6d91f7
+
+PODFILE CHECKSUM: 60828482f36fab89224aa1e31fabff6f92e8df19
+
+COCOAPODS: 1.8.4

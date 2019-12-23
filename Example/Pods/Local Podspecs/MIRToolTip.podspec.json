@@ -1,0 +1,22 @@
+{
+  "name": "MIRToolTip",
+  "version": "0.1.0",
+  "summary": "A short description of MIRToolTip.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mir-taqi/MIRToolTip",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mir-taqi": "mtaqi@sejeltech.com"
+  },
+  "source": {
+    "git": "https://github.com/mir-taqi/MIRToolTip.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MIRToolTip/Classes/**/*"
+}

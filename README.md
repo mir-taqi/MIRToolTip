@@ -22,7 +22,7 @@ pod 'MIRToolTip'
 
 ## Author
 
-mir-taqi, mtaqi@sejeltech.com
+mir-taqi
 
 ## License
 
