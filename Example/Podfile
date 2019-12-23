@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MIRToolTip_Tests' do
+  pod 'MIRToolTip', :path => '../'
+  
+  
+end
