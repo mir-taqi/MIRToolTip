@@ -12,6 +12,20 @@ A convenience library that extends UIViewController class useful for presenting 
 
 To run the example project, clone the repo, and run `pod install` 
 
+Just call the method as below.
+
+[MIRToolTip showCardAlertWithTitle:SejelLocalizedString(@"No Internet connection", nil)
+                              message:SejelLocalizedString(@"Please make sure there is Internet connection.", nil)
+                             duration:4.f
+                          hideOnSwipe:YES
+                            hideOnTap:YES
+                            alertType:AlertTypeError
+                        alertPosition:AlertPositionTop
+                              didHide:^(BOOL finished) {
+                                  NSLog(@"Alert did hide.");
+                              }];
+   
+
 ## Requirements
 
 ## Installation
