@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, AlertPosition) {
 @interface MIRToolTip : UIViewController
 
 @property (strong, nonatomic) UIColor* alertViewBackgroundColor;
-
+@property (nonatomic, assign) NSTextAlignment textAlignment;
 @property (strong, nonatomic) UIColor* titleLabelTextColor;
 @property (strong, nonatomic) UIColor* messageLabelTextColor;
 @property (strong, nonatomic) UIFont* titleLabelFont;
