@@ -110,7 +110,7 @@ static NSMutableArray* currentAlertArray = nil;
         if (!currentAlertArray) {
             currentAlertArray = [NSMutableArray new];
         }
-        
+    
         self.titleString = title;
         self.messageString = message;
         self.duration = duration;
@@ -137,6 +137,9 @@ static NSMutableArray* currentAlertArray = nil;
     if (_alertViewHeight < kDefaultCardViewHeight) {
         self.alertViewHeight = kDefaultCardViewHeight;
     }
+    
+    _textAlignment = _isRTL? NSTextAlignmentRight : NSTextAlignmentLeft;
+    
     
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;

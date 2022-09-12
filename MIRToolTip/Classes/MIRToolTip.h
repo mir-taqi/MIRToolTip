@@ -40,6 +40,7 @@ typedef NS_ENUM(NSInteger, AlertPosition) {
 @property (strong, nonatomic) UIColor* messageLabelTextColor;
 @property (strong, nonatomic) UIFont* titleLabelFont;
 @property (strong, nonatomic) UIFont* messageLabelFont;
+@property (nonatomic) BOOL isRTL;
 
 /**
  @author Mohammed Mir
